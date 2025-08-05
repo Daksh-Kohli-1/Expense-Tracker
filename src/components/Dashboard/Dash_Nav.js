@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Dash_Avatar from './Dash_Avatar'
 const Dash_Nav = () => {
     return (
         <div>
@@ -20,16 +21,10 @@ const Dash_Nav = () => {
                 </div>
                 {/* Right  */}
                 <div className='flex items-center space-x-16'>
-                    <a href="/Dashboard">Dashboard</a>
-                    <a href="/Charts">Charts</a>
-                    <a href="/PastExpense">Past Expenses</a>
-                    <Image
-                        src="/man.png"
-                        alt="logo"
-                        height={40}
-                        width={40}
-                        className='object-contain  mx-3'
-                    />
+                    <a href="/dashboard">Dashboard</a>
+                    <a href="/charts">Charts</a>
+                    <a href="/pastExpense">Past Expenses</a>
+                    <Dash_Avatar/>
                 </div>
             </div>
 

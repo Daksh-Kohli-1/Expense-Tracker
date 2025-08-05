@@ -20,7 +20,7 @@ const LandingPage = () => {
         </form>
       </div>
       <div className='ml-[43vw]'>
-        <span className='text-[#D1C6A2] text-sm'>Don't have an account? <a href="/signup" className=''>SignUp</a> </span> 
+        <span className='text-[#D1C6A2] text-sm'>Don't have an account? <a href="/SigninPage" className=''>SignUp</a> </span> 
       </div>
     </div>
   )
