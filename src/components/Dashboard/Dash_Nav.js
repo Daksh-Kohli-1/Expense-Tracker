@@ -23,7 +23,6 @@ const Dash_Nav = () => {
                 <div className='flex items-center space-x-16'>
                     <a href="/dashboard">Dashboard</a>
                     <a href="/charts">Charts</a>
-                    <a href="/pastExpense">Past Expenses</a>
                     <Dash_Avatar/>
                 </div>
             </div>
