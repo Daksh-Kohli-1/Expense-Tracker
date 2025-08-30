@@ -59,8 +59,9 @@ const SpendingChart = () => {
 
   return (
     <div className="max-w-6xl mx-auto mt-10">
-      <p className="text-5xl mb-4">Your Expenses</p>
+      <p className="text-3xl md:text-5xl ml-5 mb-4">Your Expenses</p>
       <Bar data={data} options={options} />
+      <a href="/dashboard" className='text-4xl  m-4 transition duration-300 ease-in-out hover:scale-105'>🔙</a>
     </div>
   )
 }

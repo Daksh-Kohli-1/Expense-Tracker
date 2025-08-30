@@ -19,7 +19,7 @@ const LandingPage = () => {
             <button type="submit" className='sm: w-[55vw] md:w-[35vw] lg:w-[25vw]  bg-[#FCCC18] p-2 m-3 rounded-md text-[#000000] transition duration-300 ease-in-out hover:bg-[#e0b500] hover:scale-105'>Log In </button>
         </form>
       </div>
-      <div className='ml-[43vw]'>
+      <div className=' ml-[30vw] md:ml-[43vw]'>
         <span className='text-[#D1C6A2] text-sm'>Don't have an account? <a href="/SigninPage" className=''>SignUp</a> </span> 
       </div>
     </div>

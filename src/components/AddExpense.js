@@ -60,15 +60,15 @@ const AddExpense = () => {
   return (
     <div>
       <div className='flex flex-col items-center h-[20vh] justify-center'>
-        <p className='text-8xl'>Add Expense</p>
+        <p className='text-5xl md:text-8xl'>Add Expense</p>
       </div>
       <form className='flex flex-col items-center' onSubmit={handleSubmit} >
-        <input type="date" value={formData.date} onChange={handleChange} placeholder='Date' className='bg-[#4B4221] w-[20vw] m-3 rounded-md h-[5vh] p-2' name='date' />
+        <input type="date" value={formData.date} onChange={handleChange} placeholder='Date' className='bg-[#4B4221] w-[60vw] md:w-[20vw] m-3 rounded-md h-[5vh] p-2' name='date' />
         <select
           name="category"
           value={formData.category}
           onChange={handleChange}
-          className='bg-[#4B4221] text-white w-[20vw] m-3 rounded-md h-[5vh] p-2'
+          className='bg-[#4B4221] text-white w-[60vw] md:w-[20vw] m-3 rounded-md h-[6vh] p-2'
         >
           <option value="" disabled>Select Category</option>
           <option value="Food">Food</option>
@@ -79,9 +79,9 @@ const AddExpense = () => {
           <option value="Health">Health</option>
           <option value="Miscellaneous">Miscellaneous</option>
         </select>
-        <input type="text" placeholder='Description' className='bg-[#4B4221] w-[20vw] m-3 rounded-md h-[5vh] p-2' name='description' value={formData.description} onChange={handleChange} />
-        <input type="text" placeholder='Amount' className='bg-[#4B4221] w-[20vw] m-3 rounded-md h-[5vh] p-2' name='amount' value={formData.amount} onChange={handleChange} />
-        <button type="submit" className='w-[25vw] bg-[#FCCC18] p-2 m-3 rounded-md text-[#000000] transition duration-300 ease-in-out hover:bg-[#e0b500] hover:scale-105' >Add</button>
+        <input type="text" placeholder='Description' className='bg-[#4B4221] w-[60vw] md:w-[20vw] m-3 rounded-md h-[5vh] p-2' name='description' value={formData.description} onChange={handleChange} />
+        <input type="text" placeholder='Amount' className='bg-[#4B4221] w-[60vw] md:w-[20vw] m-3 rounded-md h-[5vh] p-2' name='amount' value={formData.amount} onChange={handleChange} />
+        <button type="submit" className='w-[65vw] md:w-[25vw] bg-[#FCCC18] p-2 m-3 rounded-md text-[#000000] transition duration-300 ease-in-out hover:bg-[#e0b500] hover:scale-105' >Add</button>
       </form>
     </div>
   )

@@ -15,7 +15,7 @@ const Dash_table = () => {
       <div>
         <button
           type="button"
-          className="w-[25vw] bg-[#FCCC18] p-2 m-3 rounded-md text-[#000000] font-bold"
+          className="w-[60vw] md:w-[25vw] bg-[#FCCC18] p-2 m-3 ml-[-1] rounded-md text-[#000000] font-bold transition duration-300 ease-in-out hover:scale-105"
         >
           <a href="/addExpense">➕ Add Expense</a>
         </button>

@@ -22,19 +22,19 @@ const Dash_bricks = () => {
   return (
     <div>
       <div className="w-[81vw] ml-[10vw] mt-[3vh]">
-        <p className="text-5xl">Dashboard</p>
+        <p className="text-3xl md:text-5xl">Dashboard</p>
         <div className="flex space-x-4">
           <div className="flex flex-col space-y-3 h-[20vh] w-[25vw] bg-[#4B4221] rounded-xl p-2 mt-3">
-            <p className="text-2xl">Total Expenses</p>
-            <p className="text-4xl">₹{totalExpenses}</p>
+            <p className="text-xl md:text-2xl">Total Expenses</p>
+            <p className=" text-3xl md:text-4xl truncate">₹{totalExpenses}</p>
           </div>
           <div className="flex flex-col space-y-3 h-[20vh] w-[25vw] bg-[#4B4221] rounded-xl p-2 mt-3">
-            <p className="text-2xl">Income</p>
-            <p className="text-4xl">₹{income}</p>
+            <p className="text-xl md:text-2xl">Income</p>
+            <p className=" text-3xl md:text-4xl truncate">₹{income}</p>
           </div>
           <div className="flex flex-col space-y-3 h-[20vh] w-[25vw] bg-[#4B4221] rounded-xl p-2 mt-3">
-            <p className="text-2xl">Savings</p>
-            <p className="text-4xl">₹{savings}</p>
+            <p className="text-xl md:text-2xl">Savings</p>
+            <p className=" text-3xl md:text-4xl truncate">₹{savings}</p>
           </div>
         </div>
       </div>
